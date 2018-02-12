@@ -17,7 +17,7 @@ train_step = AAdamOptimizer(2e-3).minimize(cross_entropy)
 
 ### Results 
 I included a small [test file](neuralnets-testing-optimizers.py) which implements a simple neural net and 8 optimizers including AAdam and its variant. To run the code, simply go to command line an put ```python neuralnets-testing-optimizers.py```. You don't need tensorflow to run this file and to quickly view the difference between optimizers. 
-However, I recommand for more interesting cases that you use the separate pyhton files.
+However, I recommand for more interesting cases that you use the separated pyhton files.
 
 The optimizers are tested on the make_moons toy data set by sklearn, availaible [here](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html)
 
