@@ -23,6 +23,7 @@ The optimizers are tested on the make_moons toy data set by sklearn, availaible 
 
 Here are the results so far ... (leraning rate = 1e-2)
 
+```
 rmsprop => mean accuracy: 0.8698666666666667, std: 0.007847434117099816
 sgd => mean accuracy: 0.8794666666666666, std: 0.001359738536958064
 adam => mean accuracy: 0.872, std: 0.009074506414492586
@@ -31,6 +32,7 @@ nesterov => mean accuracy: 0.864, std: 0.021496046148071032
 aadam2 => mean accuracy: 0.8784000000000001, std: 0.0011313708498984561 <-- with the sign of the gradient
 adagrad => mean accuracy: 0.7981333333333334, std: 0.11408036153908735
 momentum => mean accuracy: 0.7970666666666667, std: 0.025884529914388783
+```
 
 *Enjoy !*
 
