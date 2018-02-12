@@ -60,10 +60,9 @@ class NAdamOptimizer(optimizer.Optimizer):
         eps = 1e-8  
 
         m = self.get_slot(var, "m1")
-        m0 = tf.zeros(grad.shape) 
-        m_t = m.assign(beta1_t * (m + (1. - beta1_t) * grad) + (1. - beta1_t) * grad)
+        m_t = m.assign(beta1_t * m + (1. - beta1_t) * grad)
         v = self.get_slot(var, "v1")
-        v_t = v.assign(beta2_t * (v + (1. - beta2_t) * grad**2) + (1. - beta2_t) * grad**2)
+        v_t = v.assign(beta2_t * v + (1. - beta2_t) * grad**2)
         alpha_t =  tf.sqrt(1 - beta2_power) / (1 - beta1_power)
 
 
