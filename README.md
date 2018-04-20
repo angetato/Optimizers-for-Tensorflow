@@ -1,5 +1,5 @@
 ## Optimizers-for-Tensorflow
-Adam, NAdam and AAdam optimizers
+Adam, NAdam and AAdam (See below for details about this optimizer) optimizers 
 
 ### Requirements
 
@@ -16,7 +16,8 @@ train_step = AAdamOptimizer(2e-3).minimize(cross_entropy)
 ```
 
 ### Results 
-I included a small [test file](neuralnets-testing-optimizers.py) which implements a simple neural net and 8 optimizers including AAdam and its variant. To run the code, simply go to command line an put ```python neuralnets-testing-optimizers.py```. You don't need tensorflow to run this file and to quickly view the difference between optimizers. 
+*UPDATE:* I included 3 files to test the optimizers on mnist data. I do a small grid search for the learning rate so it can takes some time to execute. I recommand to use a cloud service if you do not have a GPU on your computer (mainly for the MLP and the CNN models). 
+I also included a small [test file](neuralnets-testing-optimizers.py) which implements a simple neural net and 8 optimizers including AAdam (the old version) and its variant. To run the code, simply go to command line an put ```python neuralnets-testing-optimizers.py```. You don't need tensorflow to run this file and to quickly view the difference between optimizers. 
 However, I recommand for more interesting cases that you use the separated pyhton files.
 
 The optimizers are tested on the make_moons toy data set by sklearn, availaible [here](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html)
@@ -33,6 +34,11 @@ aadam2 => mean accuracy: 0.8784000000000001, std: 0.0011313708498984561 <-- with
 adagrad => mean accuracy: 0.7981333333333334, std: 0.11408036153908735
 momentum => mean accuracy: 0.7970666666666667, std: 0.025884529914388783
 ```
+
+### You want to know about AAdam right ?
+The paper about AAdam is under review for a conference. 
+I wrote a small [pdf document](AAdam_Summarized.pdf) that summarizes the idea presented in the full paper that I will release when on its best version asap.
+
 
 *Enjoy !*
 
