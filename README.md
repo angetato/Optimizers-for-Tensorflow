@@ -39,11 +39,10 @@ momentum => mean accuracy: 0.7970666666666667, std: 0.025884529914388783
 ### You want to know about AAdam right ?
 The paper about AAdam is under review for a conference. 
 
-I wrote a small [pdf document](AAdam_Summarized.pdf) that summarizes the idea presented in the full paper that I will release when on its best version asap.
+I wrote a small [pdf document](AAdam_Summarized.pdf) that summarizes the idea presented in the full paper that I will release on its best version asap.
 
 
 *Enjoy !*
 
 -----
-Deep learning = Apprenttissage profond (in french)
-Neural nets = Réseaux de neurones (in french)
+I'm a native french speaker ... I am currently learning english so if you notice any typos or spelling/grammar errors please let me know, I will be glad to learn from you.
