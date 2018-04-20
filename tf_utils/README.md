@@ -1,6 +1,10 @@
 This folder contains :
 Adam, NAdam and AAdam optimizers
 
+All the 3 versions of the new AAdam work well and outperforms Adam and NAdam in cases that we studied (Logistic Regression, MLP and CNN) on mnist data.
+
+Overall, AAdam01 outperforms AAdam and AAdam02 but further investigations are needed to clearly establish the difference between the three versions. 
+
 ### Requirements
 
 * Tensorflow (Last version)
