@@ -10,15 +10,15 @@ from tensorflow.python.training import training_ops
 import tensorflow as tf
 
 
-class AAdamOptimizerV1(optimizer.Optimizer):
+class AAdamOptimizerOld(optimizer.Optimizer):
     """Optimizer that implements the AAdam (Accelerated Adam (Adaptive moment estimation) algorithm first version).
     This very first idea actually works well. However, the results are sometimes mitigate since the sign of the gradient may result to a very bad behavior even for simple convex problems such as logistic regression.
     To cope with this issue, we move out the sign and use its variation as an heuristic. See AAdam and AAdam2.
     @@__init__
     """
 
-    def __init__(self, learning_rate=0.001, beta1=0.9, beta2=0.999, use_locking=False, epsilon=1e-8, name="AAdamV1"):
-        super(AAdamOptimizerV1, self).__init__(use_locking, name)
+    def __init__(self, learning_rate=0.001, beta1=0.9, beta2=0.999, use_locking=False, epsilon=1e-8, name="AAdamOld"):
+        super(AAdamOptimizerOld, self).__init__(use_locking, name)
         self._lr = learning_rate
         self._beta1 = beta1
         self._beta2 = beta2
