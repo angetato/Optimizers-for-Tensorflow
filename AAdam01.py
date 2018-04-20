@@ -11,7 +11,7 @@ import tensorflow as tf
 
 
 class AAdamOptimizer01(optimizer.Optimizer):
-    """Optimizer that implements the AAdam (Accelerated Adam (Adaptive moment estimation) algorithm).
+    """Optimizer that implements the AAdam (Accelerated Adam (Adaptive moment estimation) algorithm) without beta1 on Adam update step.
     @@__init__
     """
 
