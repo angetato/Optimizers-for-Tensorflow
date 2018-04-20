@@ -1,11 +1,10 @@
-## Optimizers-for-Tensorflow
+This folder contains :
 Adam, NAdam and AAdam optimizers
 
 ### Requirements
 
 * Tensorflow (Last version)
 * Python (3 or higher)
-* Your computer :-)
   
   
 ### How to use
