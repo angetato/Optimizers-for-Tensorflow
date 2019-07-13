@@ -46,6 +46,3 @@ I wrote a small [pdf document](AAdam_Summarized.pdf) that summarizes the idea pr
 
 
 *Enjoy !*
-
------
-I'm a native french speaker ... I am currently learning english so if you notice any typos or spelling/grammar errors please let me know, I will be glad to learn from you.
