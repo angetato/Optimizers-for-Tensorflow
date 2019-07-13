@@ -1,5 +1,8 @@
+
 ## Optimizers-for-Tensorflow
 Adam, NAdam and AAdam (See below for details about this optimizer) optimizers 
+
+*UPDATE July 2019*: The accelerated solutions have been updated [here](https://github.com/angetato/Custom-Optimizer-on-Keras) , also the full paper explaining the solutions is available [here](https://github.com/angetato/Custom-Optimizer-on-Keras/blob/master/Accelerating_First_Order_Optimization_Algorithms.pdf). 
 
 ### Requirements
 
