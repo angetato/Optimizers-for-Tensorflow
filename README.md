@@ -2,7 +2,7 @@
 ## Optimizers-for-Tensorflow
 Adam, NAdam and AAdam (See below for details about this optimizer) optimizers 
 
-*UPDATE July 2019*: The accelerated solutions have been updated [here](https://github.com/angetato/Custom-Optimizer-on-Keras) , also the full paper explaining the solutions is available [here](https://github.com/angetato/Custom-Optimizer-on-Keras/blob/master/Accelerating_First_Order_Optimization_Algorithms.pdf). 
+*UPDATE July 2019*: The accelerated solutions have been updated [here](https://github.com/angetato/Custom-Optimizer-on-Keras) , also the full paper explaining the solutions is available [here](https://github.com/angetato/Custom-Optimizer-on-Keras/blob/master/ICLR2020.pdf). 
 
 ### Requirements
 
@@ -38,11 +38,6 @@ aadam2 => mean accuracy: 0.8784000000000001, std: 0.0011313708498984561 <-- with
 adagrad => mean accuracy: 0.7981333333333334, std: 0.11408036153908735
 momentum => mean accuracy: 0.7970666666666667, std: 0.025884529914388783
 ```
-
-### You want to know about AAdam right ?
-The paper about AAdam is under review for a conference. 
-
-I wrote a small [pdf document](AAdam_Summarized.pdf) that summarizes the idea presented in the full paper that I will release on its best version asap.
 
 
 *Enjoy !*
